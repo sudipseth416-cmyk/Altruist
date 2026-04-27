@@ -4,52 +4,52 @@ import { Star, Users, CheckCircle, HeartPulse } from 'lucide-react';
 
 const REVIEWS = [
   {
-    name: "Sarah Jenkins",
-    role: "Field Officer",
+    name: "Ramesh Kumar",
+    role: "Field Officer, Hope Foundation",
     roleColor: "text-purple-400 bg-purple-500/10 border-purple-500/20",
     rating: 5,
-    text: "Resolved a critical flood case in under 4 hours. The AI matching system is incredibly accurate and literally saved lives.",
-    avatar: "SJ"
+    text: "Resolved a critical flood case in Nadia in under 4 hours. The AI matching system is incredibly accurate and literally saved lives.",
+    avatar: "RK"
   },
   {
-    name: "Dr. Ahmed Khan",
-    role: "Volunteer",
+    name: "Dr. Anjali Desai",
+    role: "Medical Volunteer, Murshidabad",
     roleColor: "text-cyan-400 bg-cyan-500/10 border-cyan-500/20",
     rating: 5,
     text: "As a medical volunteer, I get instantly notified when my specific skills are needed in my exact radius. Brilliant platform.",
-    avatar: "AK"
+    avatar: "AD"
   },
   {
-    name: "Elena Rostova",
-    role: "Donor",
+    name: "Vikram Singh",
+    role: "Donor, Kendrapara Relief",
     roleColor: "text-emerald-400 bg-emerald-500/10 border-emerald-500/20",
     rating: 4,
-    text: "Total transparency. I love seeing the automated PDF reports of exactly how my supplies were distributed on the ground.",
-    avatar: "ER"
+    text: "Total transparency. I love seeing the automated PDF reports of exactly how my ration supplies were distributed on the ground.",
+    avatar: "VS"
   },
   {
-    name: "Marcus Chen",
-    role: "Admin",
+    name: "Aditi Sharma",
+    role: "Admin, Patna NGO Network",
     roleColor: "text-rose-400 bg-rose-500/10 border-rose-500/20",
     rating: 5,
-    text: "The risk factor prediction heatmap allows us to deploy resources proactively before the situation escalates further.",
-    avatar: "MC"
+    text: "The risk factor prediction heatmap allows us to deploy Anganwadi support proactively before the situation escalates further.",
+    avatar: "AS"
   },
   {
-    name: "Priya Sharma",
-    role: "Volunteer",
+    name: "Priya Patel",
+    role: "Volunteer Coordinator",
     roleColor: "text-cyan-400 bg-cyan-500/10 border-cyan-500/20",
     rating: 5,
     text: "Matching volunteers has never been this efficient. I'm out there helping people rather than filling out endless paperwork.",
-    avatar: "PS"
+    avatar: "PP"
   },
   {
-    name: "David Okafor",
-    role: "Field Officer",
+    name: "Sanjay Gupta",
+    role: "Field Officer, Odisha",
     roleColor: "text-purple-400 bg-purple-500/10 border-purple-500/20",
     rating: 5,
-    text: "It just works. Even with spotty connection, the ingestion system grabs my field notes and organizes the chaos effortlessly.",
-    avatar: "DO"
+    text: "It just works. Even with spotty connection, the ingestion system grabs my field notes in Odia and organizes the chaos effortlessly.",
+    avatar: "SG"
   }
 ];
 

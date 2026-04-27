@@ -223,9 +223,9 @@ const HeatMapVisual = () => (
       className="absolute bottom-2 right-6 w-10 h-10 rounded-full bg-orange-500/50 blur-[8px]"
     />
 
-    {/* Overlay Coordinates */}
+    {/* Overlay Coordinates (Patna) */}
     <div className="absolute bottom-1 right-2 text-[7px] font-mono text-cyan-400/70">
-      LAT: 22.54 | LNG: 88.36
+      LAT: 25.59 | LNG: 85.13
     </div>
   </div>
 );
@@ -377,14 +377,14 @@ const PDFVisual = () => (
 export default function FeatureShowcase() {
   const features = [
     { 
-      id: "upload", icon: UploadCloud, title: "Smart Upload", 
-      description: "Instantly process field reports with AI-powered data extraction.",
+      id: "upload", icon: UploadCloud, title: "Multilingual OCR & Upload", 
+      description: "Instantly process physical surveys and voice notes in regional Indian languages.",
       color: "from-blue-500 via-cyan-400 to-teal-400 text-cyan-400", 
       visual: <SmartUploadVisual /> 
     },
     { 
-      id: "dashboard", icon: Activity, title: "Intelligence Hub", 
-      description: "Real-time analytics aggregating data into actionable metrics.",
+      id: "dashboard", icon: Activity, title: "Smart Prioritization Engine", 
+      description: "AI ranks urgency based on severity, frequency, and district-level metrics.",
       color: "from-cyan-400 via-teal-400 to-emerald-400 text-teal-400", 
       visual: <DashboardVisual /> 
     },
@@ -401,20 +401,20 @@ export default function FeatureShowcase() {
       visual: <ActionsVisual /> 
     },
     { 
-      id: "heatmap", icon: Map, title: "Live Heatmaps", 
-      description: "Geospatial visualization of needs, resources, and risks.",
+      id: "heatmap", icon: Map, title: "Real-Time India Impact Map", 
+      description: "Live geospatial visualization of district-level needs and active resources.",
       color: "from-orange-500 via-rose-500 to-purple-500 text-orange-400", 
       visual: <HeatMapVisual /> 
     },
     { 
-      id: "volunteers", icon: Users, title: "Auto-Matching", 
-      description: "Algorithmic pairing of volunteers to tasks based on skills.",
+      id: "volunteers", icon: Users, title: "Volunteer Matching Engine", 
+      description: "Algorithmic pairing of registered helpers based on required skills and distance.",
       color: "from-violet-500 via-purple-500 to-fuchsia-500 text-violet-400", 
       visual: <MatchingVisual /> 
     },
     { 
-      id: "feedback", icon: MessageSquare, title: "Loop Feedback", 
-      description: "Continuous learning system improving from ground reports.",
+      id: "feedback", icon: MessageSquare, title: "Feedback Intelligence Loop", 
+      description: "Continuous learning system improving responses from ground-level NGO feedback.",
       color: "from-pink-500 via-rose-400 to-orange-400 text-pink-400", 
       visual: <FeedbackVisual /> 
     },
@@ -425,8 +425,8 @@ export default function FeatureShowcase() {
       visual: <ChartVisual /> 
     },
     { 
-      id: "pdf", icon: FileText, title: "Report Engine", 
-      description: "One-click generation of comprehensive, shareable PDF briefs.",
+      id: "pdf", icon: FileText, title: "Automated Report Generator", 
+      description: "One-click generation of comprehensive, donor-ready PDF briefs for transparency.",
       color: "from-sky-400 via-blue-500 to-indigo-500 text-sky-400", 
       visual: <PDFVisual /> 
     }
@@ -449,16 +449,16 @@ export default function FeatureShowcase() {
         </motion.div>
 
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6 tracking-tight">
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-slate-200 to-slate-400">
-            The Altruist 
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6B00] via-slate-200 to-[#138808]">
+            Platform 
           </span>
           <br className="md:hidden"/>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-violet-400 to-fuchsia-400 ml-3">
-            Ecosystem
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 ml-3">
+            Capabilities
           </span>
         </h2>
         <p className="text-slate-400 text-lg max-w-2xl mx-auto font-medium">
-          A military-grade intelligence framework designed for humanitarian impact. Everything you need to coordinate, execute, and save lives.
+          A robust intelligence framework designed for Indian humanitarian organizations. Everything you need to coordinate, execute, and deliver impact.
         </p>
       </div>
       

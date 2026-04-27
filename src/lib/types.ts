@@ -115,7 +115,11 @@ export type NeedCategory =
   | "Education"
   | "Communication"
   | "Search & Rescue"
-  | "General";
+  | "General"
+  | "Flood Relief"
+  | "Medical Team"
+  | "Ration Distribution"
+  | "Anganwadi Support";
 
 /** Volunteer / resource profile */
 export interface VolunteerProfile {

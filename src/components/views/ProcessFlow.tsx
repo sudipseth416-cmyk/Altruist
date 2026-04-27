@@ -7,7 +7,7 @@ const steps = [
     id: "01",
     icon: FileText, 
     label: "Collect", 
-    desc: "Gather raw field data & surveys",
+    desc: "Paper surveys, WhatsApp forwards, voice notes — every format, every language",
     color: "text-blue-400",
     glow: "shadow-[0_0_30px_rgba(59,130,246,0.3)]",
     border: "group-hover:border-blue-400/50"
@@ -16,7 +16,7 @@ const steps = [
     id: "02",
     icon: UploadCloud, 
     label: "Ingest", 
-    desc: "Secure encrypted cloud upload",
+    desc: "Drag, scan, bulk upload. Works on low bandwidth",
     color: "text-cyan-400",
     glow: "shadow-[0_0_30px_rgba(6,214,242,0.3)]",
     border: "group-hover:border-cyan-400/50"
@@ -25,7 +25,7 @@ const steps = [
     id: "03",
     icon: BrainCircuit, 
     label: "Analyze", 
-    desc: "AI-driven NLP & risk scoring",
+    desc: "AI ranks urgency by frequency, severity, geography",
     color: "text-violet-400",
     glow: "shadow-[0_0_30px_rgba(139,92,246,0.3)]",
     border: "group-hover:border-violet-400/50"
@@ -34,7 +34,7 @@ const steps = [
     id: "04",
     icon: Link2, 
     label: "Match", 
-    desc: "Algorithmic volunteer pairing",
+    desc: "Top 3 volunteers based on skill + distance",
     color: "text-fuchsia-400",
     glow: "shadow-[0_0_30px_rgba(217,70,239,0.3)]",
     border: "group-hover:border-fuchsia-400/50"
@@ -43,7 +43,7 @@ const steps = [
     id: "05",
     icon: ShieldCheck, 
     label: "Report", 
-    desc: "Auto-generate PDF briefs",
+    desc: "Auto-generated summaries + donor-ready PDFs",
     color: "text-rose-400",
     glow: "shadow-[0_0_30px_rgba(244,63,94,0.3)]",
     border: "group-hover:border-rose-400/50"
@@ -52,7 +52,7 @@ const steps = [
     id: "06",
     icon: Zap, 
     label: "Execute", 
-    desc: "Real-time action deployment",
+    desc: "Notifications sent, actions tracked, loop closed",
     color: "text-emerald-400",
     glow: "shadow-[0_0_30px_rgba(52,211,153,0.3)]",
     border: "group-hover:border-emerald-400/50"

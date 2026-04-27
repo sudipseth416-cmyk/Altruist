@@ -3555,5 +3555,82 @@
     "feedback": [],
     "updatedAt": "2026-04-27T12:59:57.827Z",
     "createdAt": "2026-04-27T12:59:57.827Z"
+  },
+  {
+    "caseId": "case-1777311008851",
+    "originalReport": "During a recent field survey conducted across flood-affected blocks in Nadia district, West Bengal, multiple households reported severe shortages of clean drinking water and basic medical support. Over 320 paper-based survey forms and WhatsApp reports were collected by local volunteers within a span of 48 hours. Analysis of the data indicates that three villages—Hanskhali, Krishnaganj, and Tehatta—are facing critical conditions, with rising cases of waterborne diseases and limited access to primary healthcare. Immediate intervention is required in the form of mobile medical units, distribution of water purification tablets, and ration support for affected families. Volunteer availability within a 15 km radius has been identified, enabling rapid deployment if coordinated efficiently. This report highlights the urgency of prioritizing these zones for immediate response to prevent further escalation of the crisis.",
+    "analysis": {
+      "id": "case-1777311008851",
+      "timestamp": "2026-04-27T17:30:08.851Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-27T17:30:08.851Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-27T17:30:10.944Z",
+    "createdAt": "2026-04-27T17:30:10.944Z"
   }
 ]
