@@ -363,7 +363,10 @@ export default function AIResultsPanel({ result }: AIResultsPanelProps) {
           <div>
             <h3 className="text-white font-semibold text-sm">AI Analysis Results</h3>
             <p className="text-slate-500 text-xs mt-0.5">
-              Processed at {new Date(result.timestamp).toLocaleTimeString()}
+              Processed at {(() => {
+                const d = new Date(result.timestamp);
+                return isNaN(d.getTime()) ? "just now" : d.toLocaleTimeString();
+              })()}
             </p>
           </div>
         </div>

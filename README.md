@@ -1,149 +1,96 @@
-# NGO OS — AI Humanitarian Decision System
+# NGO OS: Humanitarian Intelligence Command Center
 
-An AI-powered operational dashboard for humanitarian organizations. Upload field reports, receive real-time AI-driven analysis, make informed decisions with confidence scoring, and track humanitarian impact — all from a single command center.
+![NGO OS Banner](https://via.placeholder.com/1000x200/0b0f1a/06d6f2?text=NGO+OS+HUMANITARIAN+INTELLIGENCE)
 
-![NGO OS Dashboard](https://img.shields.io/badge/Next.js-14-black?logo=next.js) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwindcss) ![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?logo=typescript)
+**NGO OS** is an advanced, AI-driven case management and intelligence platform designed for humanitarian organizations, field responders, and NGO executives. It transforms raw field reports into structured, actionable intelligence, enabling rapid decision-making in crisis environments.
 
 ---
 
-## ✨ Features
+## 🌟 Core Features
 
-- **Data Upload Panel** — Drag-and-drop file upload (PDF, images, CSV, text) + free-text field reports
-- **AI Analysis Engine** — Sends field data to an AI model (OpenAI-compatible) with a specialized humanitarian system prompt
-- **Structured Results** — Detected issues with severity, priority scoring, recommended actions, risk alerts, and AI explanation
-- **Human Decision Panel** — Confidence gauge, decision notes, and Approve / Modify / Reject workflow
-- **Impact Overview** — Animated metrics for people affected, tasks generated, regions impacted, response time
-- **Live Activity Feed** — Real-time event timeline
-- **Toast Notifications** — Contextual success/error feedback
-- **Intelligent Fallback** — Keyword-based analysis when no API key is configured (demo mode)
+### 1. Gemini AI Case Engine (Intelligence Ingestion)
+Powered by Google's latest **Gemini 1.5 Flash** model, the intelligence engine automatically ingests unstructured field reports and securely extracts:
+*   **Risk & Severity Analysis**: Calculates a 0-100 Risk Score, Severity level, and Operational Urgency.
+*   **Resource Mapping**: Automatically identifies required materials, optimal personnel skills, and volunteer profiles.
+*   **Decision Intelligence**: Generates a prioritized list of immediate, short-term, and follow-up actions.
+*   **Outcome Simulation**: Predicts strategic impact if actions are followed and provides "Red Flag" escalation warnings if ignored.
 
-## 🏗️ Project Structure
+### 2. High-Fidelity "Liquid-Glass" Command Center UI
+A premium, dark-themed SaaS operational dashboard heavily inspired by Palantir and Linear. Built for high-stress environments. Features include:
+*   **Liquid-Glass Architecture**: Deep frosted glass, backdrop blur, smooth hover micro-interactions, and neon gradient accents (Cyan/Purple/Emerald/Rose).
+*   **Threat Radar & Risk Monitor**: Live animated radar sweeps with pulsing priority alerts and dynamic severity cards.
+*   **Data-Rich Analytics**: Integrated **Recharts** for real-time visual area charts, categorization pie charts, and animated count-up metrics.
+*   **Optimistic UI Updates**: Instantaneous interaction for case approvals, feedback logging, and system configurations.
 
-```
-d:\hackathon\
-├── .env.local                    # API keys (gitignored)
-├── next.config.mjs               # Next.js configuration
-├── tailwind.config.ts            # Custom theme (colors, animations)
-├── postcss.config.mjs            # PostCSS + Tailwind
-├── tsconfig.json                 # TypeScript config
-├── package.json
-│
-└── src/
-    ├── app/
-    │   ├── layout.tsx            # Root layout + SEO metadata
-    │   ├── page.tsx              # Main dashboard (state orchestrator)
-    │   ├── globals.css           # Design system (glassmorphism, buttons, etc.)
-    │   │
-    │   └── api/
-    │       ├── analyze/
-    │       │   └── route.ts      # AI analysis endpoint
-    │       └── decision/
-    │           └── route.ts      # Decision submission endpoint
-    │
-    ├── components/
-    │   ├── Sidebar.tsx           # Collapsible navigation sidebar
-    │   ├── Header.tsx            # Top bar (search, status, user)
-    │   ├── DataUploadPanel.tsx   # File upload + text input
-    │   ├── AIResultsPanel.tsx    # AI results with gauges & cards
-    │   ├── HumanDecisionPanel.tsx # Decision making UI
-    │   └── ImpactPanel.tsx       # Impact metrics + activity feed
-    │
-    └── lib/
-        └── types.ts              # TypeScript interfaces
-```
+### 3. Ultra-Dense Intelligence Briefs (PDF)
+A bulletproof, one-page PDF generator that produces executive-ready intelligence briefs. Features include:
+*   **Vector Charts**: Custom-drawn impact dashboards, risk gauges, and severity bars.
+*   **Strict Layout**: Mathematically aligned, single-page format guaranteeing zero data overflow, ensuring perfect readability in the field.
 
-## 🚀 Getting Started
+### 4. Zero-Downtime Architecture & Demo Mode
+Built for unpredictable field environments, the system utilizes a **Dual-Persistence Layer**:
+*   **Tier 1 (MongoDB)**: Primary cloud/local database for centralized case management and history.
+*   **Tier 2 (LocalDB)**: Automatic fallback to a local JSON storage engine. If MongoDB goes offline, the UI adapts seamlessly without throwing errors.
+*   **AI Demo Mode**: If the Gemini API key is missing or invalid, the platform gracefully switches to an intelligent keyword-based simulated NLP engine, guaranteeing the app NEVER breaks during demonstrations.
+
+---
+
+## 🛠️ Technology Stack
+
+*   **Framework**: Next.js 14 (App Router)
+*   **Language**: TypeScript
+*   **Styling**: Tailwind CSS (with custom liquid-glass utilities)
+*   **Animations**: Framer Motion
+*   **Data Visualization**: Recharts
+*   **Database**: MongoDB (Mongoose) + Local JSON Fallback
+*   **AI Engine**: Google Generative AI (`@google/generative-ai`)
+*   **Document Generation**: PDFKit
+
+---
+
+## 🚀 Installation & Setup
 
 ### Prerequisites
-- **Node.js** 18+ (tested with v24)
-- **npm** 9+
+*   Node.js (v18+)
+*   MongoDB (Local or Atlas)
+*   Google Gemini API Key (Optional for Demo Mode, Required for full AI)
 
-### Installation
-
+### 1. Clone & Install
 ```bash
-# Clone or navigate to the project
-cd d:\hackathon
-
-# Install dependencies
+git clone <repository-url>
+cd hackathon
 npm install
+```
 
-# Start development server
+### 2. Environment Variables
+Create a `.env.local` file in the root directory:
+```env
+MONGODB_URI=mongodb://127.0.0.1:27017/ngoos
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+### 3. Run the Command Center
+```bash
 npm run dev
 ```
+Navigate to `http://localhost:3000` (or `http://localhost:3001` if port is in use) to access the NGO OS Dashboard.
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+---
 
-### Configure AI (Optional)
+## 📖 Operational Workflow
 
-The app works out of the box with an intelligent keyword-based fallback. To enable real AI analysis:
+1.  **Ingest**: Field officers submit raw text reports via the dashboard.
+2.  **Analyze**: The Gemini AI Engine securely processes the text, generating a structured Intelligence Object.
+3.  **Review**: Operational Leads review the AI's Recommended Actions and approve them via the UI.
+4.  **Execute & Update**: Ground teams execute the actions and submit Field Feedback.
+5.  **Track**: Risk levels and analytics update in real-time on the Recharts-powered dashboard.
+6.  **Export**: Commanders generate the **One-Page Intelligence Brief (PDF)** for official record-keeping.
 
-1. Get an API key from [OpenAI](https://platform.openai.com/api-keys)
-2. Edit `.env.local`:
-   ```env
-   OPENAI_API_KEY=sk-your-key-here
-   ```
-3. Restart the dev server
+---
 
-The API route supports any OpenAI-compatible endpoint (Azure OpenAI, local LLMs via LM Studio, etc.) by setting `OPENAI_API_URL`.
+## 🔒 Security & Data Ethics
+*   **Privacy-First Processing**: The Gemini API calls are securely masked server-side in Next.js to protect the API keys.
+*   **Local Resilience**: Field data is never lost due to connection drops, thanks to the LocalDB fallback system.
 
-## 🔌 API Routes
-
-### `POST /api/analyze`
-
-Analyzes humanitarian field data using AI.
-
-**Request:**
-```json
-{
-  "text": "Flooding has displaced 15,000 people...",
-  "fileName": "field_report.pdf"
-}
-```
-
-**Response:** `AnalysisResult` with:
-| Field | Type | Description |
-|-------|------|-------------|
-| `detectedIssues` | `Issue[]` | Issues with severity & category |
-| `priorityScore` | `number` | 0-100 urgency score |
-| `recommendedActions` | `Action[]` | Actionable recommendations |
-| `riskAlerts` | `Risk[]` | Cascading risk warnings |
-| `explanation` | `string` | Plain-English AI summary |
-| `confidenceScore` | `number` | 0-100 AI self-confidence |
-| `impactEstimate` | `Impact` | People, tasks, regions |
-
-### `POST /api/decision`
-
-Records human decisions on AI analyses.
-
-**Request:**
-```json
-{
-  "analysisId": "analysis-123",
-  "decision": "approve",
-  "notes": "Proceed with water purification deployment"
-}
-```
-
-## 🎨 Design System
-
-| Token | Value | Usage |
-|-------|-------|-------|
-| `ngo-dark-900` | `#0a0e1a` | Page background |
-| `ngo-accent` | `#34d399` | Primary accent (emerald) |
-| `ngo-cyan` | `#22d3ee` | Secondary accent |
-| `ngo-amber` | `#fbbf24` | Warnings & modify actions |
-| `ngo-rose` | `#fb7185` | Alerts & reject actions |
-
-Components use `.glass-card`, `.btn-primary`, `.btn-danger`, `.btn-outline`, `.input-field`, `.badge-*`, and `.icon-box-*` utility classes.
-
-## 📦 Tech Stack
-
-- **Framework:** Next.js 14 (App Router)
-- **Language:** TypeScript 5.5
-- **Styling:** Tailwind CSS 3.4
-- **Icons:** Lucide React
-- **AI:** OpenAI-compatible API (GPT-4o-mini default)
-
-## 📄 License
-
-MIT
+---
+*Developed as a high-impact humanitarian technology solution.*

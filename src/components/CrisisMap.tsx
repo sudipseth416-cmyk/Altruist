@@ -35,7 +35,19 @@ export default function CrisisMap({
   const markersRef = useRef<any[]>([]);
 
   useEffect(() => {
-    if (!mapRef.current || mapInstanceRef.current) return;
+    if (!mapRef.current) return;
+
+    /* Clean up any previous Leaflet instance on this DOM node (handles HMR / strict mode) */
+    const container = mapRef.current as HTMLDivElement & { _leaflet_id?: number };
+    if (container._leaflet_id) {
+      if (mapInstanceRef.current) {
+        mapInstanceRef.current.remove();
+        mapInstanceRef.current = null;
+      }
+      delete container._leaflet_id;
+    }
+
+    if (mapInstanceRef.current) return;
 
     const initMap = async () => {
       const L = (await import("leaflet")).default;

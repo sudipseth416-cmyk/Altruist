@@ -15,11 +15,12 @@ import {
   Clock,
   AlertTriangle,
   History,
+  Users,
 } from "lucide-react";
-import type { AnalysisResult } from "@/lib/types";
+import type { CaseEngineResult } from "@/lib/case-engine-types";
 
 interface HumanDecisionPanelProps {
-  result: AnalysisResult | null;
+  result: CaseEngineResult | null;
   onDecision: (decision: "approve" | "modify" | "reject", notes: string) => void;
   isSubmitting: boolean;
 }
@@ -184,7 +185,7 @@ export default function HumanDecisionPanel({
       setNotes("");
       setSelectedDecision(null);
     }
-  }, [result?.id]);
+  }, [result]);
 
   /* ── Empty State ── */
   if (!result) {
@@ -212,7 +213,7 @@ export default function HumanDecisionPanel({
       notes,
       timestamp: new Date().toISOString(),
       analysisId: result.id,
-      confidenceScore: result.confidenceScore,
+      confidenceScore: 100 - result.risk_analysis.risk_score, // invert risk to confidence
     };
 
     // Log decision to console
@@ -223,7 +224,7 @@ export default function HumanDecisionPanel({
     console.table({
       Decision: decision.toUpperCase(),
       "Analysis ID": result.id,
-      "Confidence Score": `${result.confidenceScore}%`,
+      "Risk Score": `${result.risk_analysis.risk_score}/100`,
       Notes: notes || "(none)",
       Timestamp: record.timestamp,
     });
@@ -244,7 +245,7 @@ export default function HumanDecisionPanel({
   };
 
   /* ── Derive top recommendations ── */
-  const topActions = result.recommendedActions?.slice(0, 3) ?? [];
+  const topActions = result.recommended_actions?.slice(0, 3) ?? [];
 
   return (
     <div className="glass-card p-6 animate-fade-in animate-delay-400">
@@ -277,90 +278,77 @@ export default function HumanDecisionPanel({
         </div>
 
         {/* Explanation excerpt */}
-        {result.explanation && (
+        {result.summary && (
           <p className="text-sm text-slate-300 leading-relaxed mb-3 line-clamp-3">
-            {result.explanation}
+            {result.summary}
           </p>
         )}
 
         {/* Top recommended actions */}
         {topActions.length > 0 && (
           <div className="space-y-2">
-            {topActions.map((action, idx) => {
-              const pc = priorityConfig[action.priority];
-              return (
+            {topActions.map((action) => (
                 <div
-                  key={action.id}
+                  key={action.step}
                   className="flex items-start gap-3 p-2.5 rounded-lg bg-white/[0.03] border border-white/[0.04] hover:bg-white/[0.05] transition-colors"
                 >
-                  <span className="text-[10px] font-bold text-slate-500 mt-1 w-4 text-center flex-shrink-0">
-                    {idx + 1}
+                  <span className="flex-shrink-0 w-5 h-5 rounded-md bg-emerald-500/10 flex items-center justify-center text-[9px] font-bold text-emerald-400">
+                    {action.step}
                   </span>
                   <div className="flex-1 min-w-0">
                     <p className="text-xs text-slate-200 leading-relaxed">
                       {action.action}
                     </p>
-                    <div className="flex items-center gap-2 mt-1">
-                      <span
-                        className={`inline-flex items-center gap-1 text-[9px] font-semibold uppercase tracking-wider ${pc.color}`}
-                      >
-                        <span className={`w-1 h-1 rounded-full ${pc.dot}`} />
-                        {pc.label}
-                      </span>
-                      <span className="text-slate-600 text-[9px]">•</span>
-                      <span className="text-[9px] text-slate-500 flex items-center gap-0.5">
-                        <ArrowUpRight className="w-2.5 h-2.5" />
-                        {action.estimatedImpact}
-                      </span>
-                    </div>
                   </div>
                 </div>
-              );
-            })}
+            ))}
           </div>
         )}
 
         {/* Risk warning snippet */}
-        {result.riskAlerts && result.riskAlerts.filter((r) => r.level === "critical").length > 0 && (
+        {(result.risk_analysis.severity === "Critical" || result.risk_analysis.severity === "High") && (
           <div className="mt-3 flex items-center gap-2 p-2 rounded-lg bg-rose-500/[0.08] border border-rose-500/20">
             <AlertTriangle className="w-3.5 h-3.5 text-rose-400 flex-shrink-0" />
             <p className="text-[11px] text-rose-300">
-              {result.riskAlerts.filter((r) => r.level === "critical").length} critical risk
-              {result.riskAlerts.filter((r) => r.level === "critical").length > 1 ? "s" : ""}{" "}
-              detected — review before approving.
+              {result.risk_analysis.severity} severity (risk score {result.risk_analysis.risk_score}/100) — review before approving.
             </p>
           </div>
         )}
       </div>
 
       {/* ── Confidence Gauge + Summary ── */}
-      <div className="flex items-center gap-5 mb-5 p-4 rounded-xl bg-white/[0.02] border border-white/[0.04]">
-        <ConfidenceRing score={result.confidenceScore} />
-        <div className="flex-1">
-          <p className="text-sm font-medium text-white mb-1">AI Confidence Level</p>
-          <p className="text-xs text-slate-400 leading-relaxed">
-            {result.confidenceScore >= 80
-              ? "High confidence — AI strongly recommends proceeding with the suggested actions."
-              : result.confidenceScore >= 60
-              ? "Moderate confidence — review recommended actions carefully before proceeding."
-              : "Low confidence — additional data or human review is strongly recommended."}
-          </p>
-          <div className="progress-bar-track mt-3">
-            <div
-              className="progress-bar-fill"
-              style={{
-                width: `${result.confidenceScore}%`,
-                background:
-                  result.confidenceScore >= 80
-                    ? "linear-gradient(90deg, #059669, #34d399)"
-                    : result.confidenceScore >= 60
-                    ? "linear-gradient(90deg, #d97706, #fbbf24)"
-                    : "linear-gradient(90deg, #e11d48, #fb7185)",
-              }}
-            />
+      {(() => {
+        const confidence = Math.max(0, Math.min(100, 100 - result.risk_analysis.risk_score));
+        return (
+          <div className="flex items-center gap-5 mb-5 p-4 rounded-xl bg-white/[0.02] border border-white/[0.04]">
+            <ConfidenceRing score={confidence} />
+            <div className="flex-1">
+              <p className="text-sm font-medium text-white mb-1">Case Confidence</p>
+              <p className="text-xs text-slate-400 leading-relaxed">
+                {confidence >= 80
+                  ? "Low risk — AI strongly recommends proceeding with the suggested actions."
+                  : confidence >= 60
+                  ? "Moderate risk — review recommended actions carefully before proceeding."
+                  : "High risk — additional data or human review is strongly recommended."}
+              </p>
+              <div className="progress-bar-track mt-3">
+                <div
+                  className="progress-bar-fill"
+                  style={{
+                    width: `${confidence}%`,
+                    background:
+                      confidence >= 80
+                        ? "linear-gradient(90deg, #059669, #34d399)"
+                        : confidence >= 60
+                        ? "linear-gradient(90deg, #d97706, #fbbf24)"
+                        : "linear-gradient(90deg, #e11d48, #fb7185)",
+                  }}
+                />
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+        );
+      })()}
 
       {/* ── Confirmation Banner (shown after decision) ── */}
       {confirmedDecision && (
@@ -392,7 +380,7 @@ export default function HumanDecisionPanel({
           </div>
 
           {/* Decision Buttons */}
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             <button
               id="approve-btn"
               onClick={() => handleSubmit("approve")}
@@ -407,6 +395,19 @@ export default function HumanDecisionPanel({
                 <CheckCircle className="w-5 h-5 group-hover:scale-110 transition-transform duration-200" />
               )}
               <span className="text-xs font-semibold">Approve</span>
+            </button>
+            <button
+              id="assign-btn"
+              onClick={() => {
+                // Mock assignment action for Admin
+                const el = document.getElementById('assign-btn');
+                if (el) el.innerHTML = '<span class="text-xs font-semibold text-emerald-400">Assigned!</span>';
+              }}
+              disabled={isSubmitting}
+              className={`btn-outline flex flex-col items-center gap-1.5 py-3 group border-indigo-500/30 bg-indigo-500/5`}
+            >
+              <Users className="w-5 h-5 text-indigo-400 group-hover:scale-110 transition-transform duration-200" />
+              <span className="text-xs font-semibold text-indigo-300">Assign Volunteer</span>
             </button>
             <button
               id="modify-btn"

@@ -1,0 +1,3559 @@
+[
+  {
+    "caseId": "case-1777131691018",
+    "originalReport": "field volunteer reported that in a semi-rural area, a community water source has not been functioning for the past five days due to a mechanical issue. As a result, residents are collecting water from a nearby pond, which appears unclean. Several individuals have complained of stomach discomfort, and two elderly residents are feeling weak. No repair work has started yet, and no external support has been provided. The situation is ongoing and may worsen if the water issue is not resolved soon.",
+    "analysis": {
+      "id": "case-1777131691018",
+      "timestamp": "2026-04-25T15:41:31.018Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T15:41:31.018Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T15:42:01.039Z",
+    "createdAt": "2026-04-25T15:42:01.039Z"
+  },
+  {
+    "caseId": "case-1777132668528",
+    "originalReport": "A field volunteer reported that in a small community, waste collection has not occurred for the past six days, leading to accumulation of garbage near residential areas. Residents have started experiencing foul odor and increased presence of insects. Some individuals have reported mild respiratory discomfort. No municipal response has been observed so far. The issue is ongoing, and residents are concerned that the situation may worsen if proper cleaning measures are not taken soon.",
+    "analysis": {
+      "id": "case-1777132668528",
+      "timestamp": "2026-04-25T15:57:48.528Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T15:57:48.529Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T15:57:50.554Z",
+    "createdAt": "2026-04-25T15:57:50.554Z"
+  },
+  {
+    "caseId": "case-1777132842801",
+    "originalReport": "A field volunteer reported that in a small community, waste collection has not occurred for the past six days, leading to accumulation of garbage near residential areas. Residents have started experiencing foul odor and increased presence of insects. Some individuals have reported mild respiratory discomfort. No municipal response has been observed so far. The issue is ongoing, and residents are concerned that the situation may worsen if proper cleaning measures are not taken soon.",
+    "analysis": {
+      "id": "case-1777132842801",
+      "timestamp": "2026-04-25T16:00:42.801Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:00:42.801Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:00:44.821Z",
+    "createdAt": "2026-04-25T16:00:44.821Z"
+  },
+  {
+    "caseId": "case-1777133221843",
+    "originalReport": "A field volunteer reported that in a small community, waste collection has not occurred for the past six days, leading to accumulation of garbage near residential areas. Residents have started experiencing foul odor and increased presence of insects. Some individuals have reported mild respiratory discomfort. No municipal response has been observed so far. The issue is ongoing, and residents are concerned that the situation may worsen if proper cleaning measures are not taken soon.",
+    "analysis": {
+      "id": "case-1777133221843",
+      "timestamp": "2026-04-25T16:07:01.843Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:07:01.843Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:07:03.863Z",
+    "createdAt": "2026-04-25T16:07:03.863Z"
+  },
+  {
+    "caseId": "case-1777133708237",
+    "originalReport": "A field volunteer reported that in a small community, waste collection has not occurred for the past six days, leading to accumulation of garbage near residential areas. Residents have started experiencing foul odor and increased presence of insects. Some individuals have reported mild respiratory discomfort. No municipal response has been observed so far. The issue is ongoing, and residents are concerned that the situation may worsen if proper cleaning measures are not taken soon.",
+    "analysis": {
+      "id": "case-1777133708237",
+      "timestamp": "2026-04-25T16:15:08.237Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:15:08.237Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:15:10.285Z",
+    "createdAt": "2026-04-25T16:15:10.285Z"
+  },
+  {
+    "caseId": "case-1777133769575",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nwe are still working and the problem is a little bit solved now",
+    "analysis": {
+      "id": "case-1777133769575",
+      "timestamp": "2026-04-25T16:16:09.575Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:16:09.575Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:16:11.597Z",
+    "createdAt": "2026-04-25T16:16:11.597Z"
+  },
+  {
+    "caseId": "case-1777134050263",
+    "originalReport": "A field volunteer reported that in a small community, waste collection has not occurred for the past six days, leading to accumulation of garbage near residential areas. Residents have started experiencing foul odor and increased presence of insects. Some individuals have reported mild respiratory discomfort. No municipal response has been observed so far. The issue is ongoing, and residents are concerned that the situation may worsen if proper cleaning measures are not taken soon.",
+    "analysis": {
+      "id": "case-1777134050263",
+      "timestamp": "2026-04-25T16:20:50.263Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:20:50.263Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:20:52.270Z",
+    "createdAt": "2026-04-25T16:20:52.270Z"
+  },
+  {
+    "caseId": "case-1777134358285",
+    "originalReport": "A field volunteer reported that in a small community, waste collection has not occurred for the past six days, leading to accumulation of garbage near residential areas. Residents have started experiencing foul odor and increased presence of insects. Some individuals have reported mild respiratory discomfort. No municipal response has been observed so far. The issue is ongoing, and residents are concerned that the situation may worsen if proper cleaning measures are not taken soon.",
+    "analysis": {
+      "id": "case-1777134358285",
+      "timestamp": "2026-04-25T16:25:58.285Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:25:58.285Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:26:00.297Z",
+    "createdAt": "2026-04-25T16:26:00.297Z"
+  },
+  {
+    "caseId": "case-1777134386910",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nyeah the situation is good right now",
+    "analysis": {
+      "id": "case-1777134386910",
+      "timestamp": "2026-04-25T16:26:26.910Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:26:26.910Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:26:28.923Z",
+    "createdAt": "2026-04-25T16:26:28.923Z"
+  },
+  {
+    "caseId": "case-1777134531020",
+    "originalReport": "A field volunteer reported that in a small community, waste collection has not occurred for the past six days, leading to accumulation of garbage near residential areas. Residents have started experiencing foul odor and increased presence of insects. Some individuals have reported mild respiratory discomfort. No municipal response has been observed so far. The issue is ongoing, and residents are concerned that the situation may worsen if proper cleaning measures are not taken soon.",
+    "analysis": {
+      "id": "case-1777134531020",
+      "timestamp": "2026-04-25T16:28:51.020Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:28:51.020Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:28:53.038Z",
+    "createdAt": "2026-04-25T16:28:53.038Z"
+  },
+  {
+    "caseId": "case-1777134546636",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nyup its  now good",
+    "analysis": {
+      "id": "case-1777134546636",
+      "timestamp": "2026-04-25T16:29:06.636Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:29:06.636Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:29:08.662Z",
+    "createdAt": "2026-04-25T16:29:08.662Z"
+  },
+  {
+    "caseId": "case-1777135788285",
+    "originalReport": "A field volunteer reported that in a small community, waste collection has not occurred for the past six days, leading to accumulation of garbage near residential areas. Residents have started experiencing foul odor and increased presence of insects. Some individuals have reported mild respiratory discomfort. No municipal response has been observed so far. The issue is ongoing, and residents are concerned that the situation may worsen if proper cleaning measures are not taken soon.",
+    "analysis": {
+      "id": "case-1777135788285",
+      "timestamp": "2026-04-25T16:49:48.285Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:49:48.285Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:49:50.302Z",
+    "createdAt": "2026-04-25T16:49:50.302Z"
+  },
+  {
+    "caseId": "case-1777135810855",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nyup the condition is now under control",
+    "analysis": {
+      "id": "case-1777135810855",
+      "timestamp": "2026-04-25T16:50:10.855Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T16:50:10.855Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T16:50:12.881Z",
+    "createdAt": "2026-04-25T16:50:12.881Z"
+  },
+  {
+    "caseId": "case-1777136550389",
+    "originalReport": "A field volunteer reported that in a small community, waste collection has not occurred for the past six days, leading to accumulation of garbage near residential areas. Residents have started experiencing foul odor and increased presence of insects. Some individuals have reported mild respiratory discomfort. No municipal response has been observed so far. The issue is ongoing, and residents are concerned that the situation may worsen if proper cleaning measures are not taken soon.",
+    "analysis": {
+      "id": "case-1777136550389",
+      "timestamp": "2026-04-25T17:02:30.389Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T17:02:30.389Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T17:02:32.405Z",
+    "createdAt": "2026-04-25T17:02:32.405Z"
+  },
+  {
+    "caseId": "case-1777136578064",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe situation is good right now.",
+    "analysis": {
+      "id": "case-1777136578064",
+      "timestamp": "2026-04-25T17:02:58.064Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T17:02:58.064Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T17:03:00.071Z",
+    "createdAt": "2026-04-25T17:03:00.071Z"
+  },
+  {
+    "caseId": "case-1777136834306",
+    "originalReport": "A field volunteer reported that in a small community, waste collection has not occurred for the past six days, leading to accumulation of garbage near residential areas. Residents have started experiencing foul odor and increased presence of insects. Some individuals have reported mild respiratory discomfort. No municipal response has been observed so far. The issue is ongoing, and residents are concerned that the situation may worsen if proper cleaning measures are not taken soon.",
+    "analysis": {
+      "id": "case-1777136834306",
+      "timestamp": "2026-04-25T17:07:14.306Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T17:07:14.306Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T17:07:16.319Z",
+    "createdAt": "2026-04-25T17:07:16.319Z"
+  },
+  {
+    "caseId": "case-1777136853104",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe situation is under control now",
+    "analysis": {
+      "id": "case-1777136853104",
+      "timestamp": "2026-04-25T17:07:33.104Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T17:07:33.104Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T17:07:35.133Z",
+    "createdAt": "2026-04-25T17:07:35.133Z"
+  },
+  {
+    "caseId": "case-1777139255283",
+    "originalReport": "n Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777139255283",
+      "timestamp": "2026-04-25T17:47:35.284Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T17:47:35.284Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T17:47:37.301Z",
+    "createdAt": "2026-04-25T17:47:37.301Z"
+  },
+  {
+    "caseId": "case-1777139498584",
+    "originalReport": "n Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777139498584",
+      "timestamp": "2026-04-25T17:51:38.584Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T17:51:38.584Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T17:51:40.596Z",
+    "createdAt": "2026-04-25T17:51:40.596Z"
+  },
+  {
+    "caseId": "case-1777139518874",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nall is ok now",
+    "analysis": {
+      "id": "case-1777139518874",
+      "timestamp": "2026-04-25T17:51:58.874Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T17:51:58.874Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T17:52:00.897Z",
+    "createdAt": "2026-04-25T17:52:00.897Z"
+  },
+  {
+    "caseId": "case-1777140577030",
+    "originalReport": "In Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777140577030",
+      "timestamp": "2026-04-25T18:09:37.030Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:09:37.030Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:09:39.059Z",
+    "createdAt": "2026-04-25T18:09:39.059Z"
+  },
+  {
+    "caseId": "case-1777140653072",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe situation is now under controll and we are still working on solving this issue and our team is regorously working on it still.",
+    "analysis": {
+      "id": "case-1777140653072",
+      "timestamp": "2026-04-25T18:10:53.073Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:10:53.073Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:10:55.100Z",
+    "createdAt": "2026-04-25T18:10:55.100Z"
+  },
+  {
+    "caseId": "case-1777141128861",
+    "originalReport": "In Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777141128861",
+      "timestamp": "2026-04-25T18:18:48.861Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:18:48.861Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:18:50.865Z",
+    "createdAt": "2026-04-25T18:18:50.865Z"
+  },
+  {
+    "caseId": "case-1777141168740",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe situation is now under  control .",
+    "analysis": {
+      "id": "case-1777141168740",
+      "timestamp": "2026-04-25T18:19:28.740Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:19:28.740Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:19:30.745Z",
+    "createdAt": "2026-04-25T18:19:30.745Z"
+  },
+  {
+    "caseId": "case-1777141409380",
+    "originalReport": "In Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777141409380",
+      "timestamp": "2026-04-25T18:23:29.380Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:23:29.380Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:23:31.385Z",
+    "createdAt": "2026-04-25T18:23:31.385Z"
+  },
+  {
+    "caseId": "case-1777141605403",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe report clearly identifies a localized sanitation issue and effectively highlights its growing public health implications, particularly by linking irregular waste collection to environmental hazards like foul odor, mosquito breeding, and respiratory discomfort among vulnerable groups. It presents the situation in a structured and concise manner, making the urgency easy to understand. However, it could be strengthened by including specific data such as the number of affected households, any photographic or survey evidence, and a brief mention of possible causes or previous patterns of service disruption. Adding a short recommendation or suggested course of action for authorities would also improve its practical impact and completeness.",
+    "analysis": {
+      "id": "case-1777141605403",
+      "timestamp": "2026-04-25T18:26:45.403Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:26:45.403Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      },
+      {
+        "date": "2026-04-25T18:28:01.874Z",
+        "event": "Status updated to in_progress",
+        "type": "update"
+      },
+      {
+        "date": "2026-04-25T18:28:03.935Z",
+        "event": "Status updated to critical",
+        "type": "update"
+      },
+      {
+        "date": "2026-04-25T18:28:07.172Z",
+        "event": "Status updated to new",
+        "type": "update"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:28:07.965Z",
+    "createdAt": "2026-04-25T18:26:47.444Z"
+  },
+  {
+    "caseId": "case-1777141801849",
+    "originalReport": "In Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777141801849",
+      "timestamp": "2026-04-25T18:30:01.849Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:30:01.849Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:30:03.860Z",
+    "createdAt": "2026-04-25T18:30:03.860Z"
+  },
+  {
+    "caseId": "case-1777141849073",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe report clearly identifies a localized sanitation issue and effectively highlights its growing public health implications, particularly by linking irregular waste collection to environmental hazards like foul odor, mosquito breeding, and respiratory discomfort among vulnerable groups.",
+    "analysis": {
+      "id": "case-1777141849073",
+      "timestamp": "2026-04-25T18:30:49.073Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:30:49.073Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:30:51.082Z",
+    "createdAt": "2026-04-25T18:30:51.082Z"
+  },
+  {
+    "caseId": "case-1777142129315",
+    "originalReport": "In Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777142129315",
+      "timestamp": "2026-04-25T18:35:29.315Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:35:29.315Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:35:31.323Z",
+    "createdAt": "2026-04-25T18:35:31.323Z"
+  },
+  {
+    "caseId": "case-1777142175416",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe situation is now under controll and all are safe now , all prilimenary steps are already taken.",
+    "analysis": {
+      "id": "case-1777142175416",
+      "timestamp": "2026-04-25T18:36:15.416Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:36:15.416Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:36:17.423Z",
+    "createdAt": "2026-04-25T18:36:17.423Z"
+  },
+  {
+    "caseId": "case-1777142318844",
+    "originalReport": "In Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777142318844",
+      "timestamp": "2026-04-25T18:38:38.844Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:38:38.844Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:38:40.862Z",
+    "createdAt": "2026-04-25T18:38:40.862Z"
+  },
+  {
+    "caseId": "case-1777142346754",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe situation is now under control and all is good right now.",
+    "analysis": {
+      "id": "case-1777142346754",
+      "timestamp": "2026-04-25T18:39:06.754Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:39:06.754Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:39:08.772Z",
+    "createdAt": "2026-04-25T18:39:08.772Z"
+  },
+  {
+    "caseId": "case-1777142501611",
+    "originalReport": "In Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777142501611",
+      "timestamp": "2026-04-25T18:41:41.611Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:41:41.611Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:41:43.629Z",
+    "createdAt": "2026-04-25T18:41:43.629Z"
+  },
+  {
+    "caseId": "case-1777142523857",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nAll is ok right now",
+    "analysis": {
+      "id": "case-1777142523857",
+      "timestamp": "2026-04-25T18:42:03.857Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:42:03.857Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:42:05.863Z",
+    "createdAt": "2026-04-25T18:42:05.863Z"
+  },
+  {
+    "caseId": "case-1777142828838",
+    "originalReport": "In Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777142828838",
+      "timestamp": "2026-04-25T18:47:08.838Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:47:08.838Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:47:10.853Z",
+    "createdAt": "2026-04-25T18:47:10.853Z"
+  },
+  {
+    "caseId": "case-1777142911750",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nAll problems are solved by our teams they worked vey hard and gave their best , the situation of that place is good right now.",
+    "analysis": {
+      "id": "case-1777142911750",
+      "timestamp": "2026-04-25T18:48:31.750Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:48:31.750Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:48:33.768Z",
+    "createdAt": "2026-04-25T18:48:33.768Z"
+  },
+  {
+    "caseId": "case-1777143285302",
+    "originalReport": "In Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777143285302",
+      "timestamp": "2026-04-25T18:54:45.302Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:54:45.302Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:54:47.318Z",
+    "createdAt": "2026-04-25T18:54:47.318Z"
+  },
+  {
+    "caseId": "case-1777143354223",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe situation is now under control all are safe right now.",
+    "analysis": {
+      "id": "case-1777143354223",
+      "timestamp": "2026-04-25T18:55:54.223Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:55:54.223Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:55:56.231Z",
+    "createdAt": "2026-04-25T18:55:56.231Z"
+  },
+  {
+    "caseId": "case-1777143517730",
+    "originalReport": "In Ward 12 of a semi-urban residential area, waste collection services have been irregular for the past 8 days, leading to significant garbage accumulation near households and local markets. Residents report strong foul odor, increased mosquito breeding, and rising cases of mild respiratory irritation, especially among children and elderly individuals. Local authorities have been informed but no action has been taken so far. The situation is gradually worsening and may pose serious public health risks if not addressed immediately.",
+    "analysis": {
+      "id": "case-1777143517730",
+      "timestamp": "2026-04-25T18:58:37.730Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:58:37.730Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:58:39.741Z",
+    "createdAt": "2026-04-25T18:58:39.741Z"
+  },
+  {
+    "caseId": "case-1777143545510",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe situation is now under control.",
+    "analysis": {
+      "id": "case-1777143545510",
+      "timestamp": "2026-04-25T18:59:05.510Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T18:59:05.510Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T18:59:07.517Z",
+    "createdAt": "2026-04-25T18:59:07.517Z"
+  },
+  {
+    "caseId": "case-1777143881801",
+    "originalReport": "The NGO conducted a community outreach program in a semi-urban locality, focusing on improving sanitation, basic healthcare awareness, and educational support for underprivileged families. Over the course of two weeks, volunteers organized cleanliness drives, distributed essential hygiene kits, and held awareness sessions on waste management and disease prevention. Additionally, free health check-up camps were arranged in collaboration with local medical practitioners, benefiting children and elderly residents. The NGO also provided basic learning materials to school-going children to encourage continued education. The initiative received active participation from the community, though certain logistical challenges and limited resources slightly restricted its overall reach.",
+    "analysis": {
+      "id": "case-1777143881801",
+      "timestamp": "2026-04-25T19:04:41.801Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T19:04:41.801Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T19:04:43.808Z",
+    "createdAt": "2026-04-25T19:04:43.808Z"
+  },
+  {
+    "caseId": "case-1777143943666",
+    "originalReport": "[FIELD UPDATE / OUTCOME REPORT]\n\nThe report effectively outlines the NGO’s activities and highlights its positive impact on the community, presenting a clear picture of its multi-dimensional approach toward social welfare. It successfully conveys both achievements and challenges, which adds credibility. However, it could be further improved by including measurable outcomes such as the number of beneficiaries, specific improvements observed, or feedback from participants. Adding a brief conclusion or future action plan would also enhance the report’s completeness and make it more impactful for stakeholders and sponsors.",
+    "analysis": {
+      "id": "case-1777143943666",
+      "timestamp": "2026-04-25T19:05:43.666Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-25T19:05:43.666Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-25T19:05:45.687Z",
+    "createdAt": "2026-04-25T19:05:45.687Z"
+  },
+  {
+    "caseId": "case-1777291417205",
+    "originalReport": "A severe flooding incident has been reported in the Nadia district of West Bengal following continuous heavy rainfall over the past 48 hours. Several low-lying areas are submerged, displacing approximately 120 families and disrupting access to clean drinking water and basic sanitation. Initial assessments indicate an urgent need for food supplies, medical assistance, and temporary shelter. Local volunteers have begun preliminary evacuation efforts, but additional manpower and resources are required to manage relief operations effectively. Immediate intervention is recommended to prevent the spread of waterborne diseases and to ensure safe rehabilitation of affected residents.",
+    "analysis": {
+      "id": "case-1777291417205",
+      "timestamp": "2026-04-27T12:03:37.205Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-27T12:03:37.205Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-27T12:03:39.331Z",
+    "createdAt": "2026-04-27T12:03:39.331Z"
+  },
+  {
+    "caseId": "case-1777292976939",
+    "originalReport": "A severe flooding incident has been reported in the Nadia district of West Bengal following continuous heavy rainfall over the past 48 hours. Several low-lying areas are submerged, displacing approximately 120 families and disrupting access to clean drinking water and basic sanitation. Initial assessments indicate an urgent need for food supplies, medical assistance, and temporary shelter. Local volunteers have begun preliminary evacuation efforts, but additional manpower and resources are required to manage relief operations effectively. Immediate intervention is recommended to prevent the spread of waterborne diseases and to ensure safe rehabilitation of affected residents.",
+    "analysis": {
+      "id": "case-1777292976939",
+      "timestamp": "2026-04-27T12:29:36.939Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-27T12:29:36.939Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-27T12:29:39.046Z",
+    "createdAt": "2026-04-27T12:29:39.046Z"
+  },
+  {
+    "caseId": "case-1777293151780",
+    "originalReport": "A severe flooding incident has been reported in the Nadia district of West Bengal following continuous heavy rainfall over the past 48 hours. Several low-lying areas are submerged, displacing approximately 120 families and disrupting access to clean drinking water and basic sanitation. Initial assessments indicate an urgent need for food supplies, medical assistance, and temporary shelter. Local volunteers have begun preliminary evacuation efforts, but additional manpower and resources are required to manage relief operations effectively. Immediate intervention is recommended to prevent the spread of waterborne diseases and to ensure safe rehabilitation of affected residents.",
+    "analysis": {
+      "id": "case-1777293151780",
+      "timestamp": "2026-04-27T12:32:31.780Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-27T12:32:31.780Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-27T12:32:33.805Z",
+    "createdAt": "2026-04-27T12:32:33.805Z"
+  },
+  {
+    "caseId": "case-1777294795737",
+    "originalReport": "A waste management crisis has been identified in the outskirts of Mumbai, where uncollected garbage has accumulated over the past two weeks due to irregular municipal services. The situation has led to foul odor, increased presence of stray animals, and a growing risk of disease outbreaks among nearby residents, particularly children and elderly individuals. Local community members have raised concerns about the lack of timely intervention and have requested immediate assistance. Preliminary observations suggest the need for organized waste clearance, sanitation drives, and awareness campaigns to prevent further deterioration. Volunteer involvement and coordinated action with local authorities are urgently required to restore hygienic conditions in the affected area.",
+    "analysis": {
+      "id": "case-1777294795737",
+      "timestamp": "2026-04-27T12:59:55.737Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-27T12:59:55.737Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-27T12:59:57.827Z",
+    "createdAt": "2026-04-27T12:59:57.827Z"
+  }
+]

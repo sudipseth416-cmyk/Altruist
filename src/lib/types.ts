@@ -180,3 +180,66 @@ export interface LiveFeedEvent {
   urgency: "critical" | "high" | "medium" | "low";
   location?: string;
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   Gemini Deep Analysis — Dual AI System
+   ═══════════════════════════════════════════════════════════════════ */
+
+export interface GeminiDeepAnalysis {
+  id: string;
+  timestamp: string;
+  model: string;
+  processingTime: number; // ms
+
+  summary: string;
+  keyFindings: GeminiFinding[];
+  riskAssessment: GeminiRisk[];
+  strategicInsights: GeminiInsight[];
+  suggestedActions: GeminiAction[];
+  dataPoints: GeminiDataPoint[];
+  overallSeverity: "critical" | "high" | "moderate" | "low";
+  confidenceScore: number;
+}
+
+export interface GeminiFinding {
+  id: string;
+  title: string;
+  description: string;
+  category: string;
+  severity: "critical" | "high" | "medium" | "low";
+  evidence: string;
+}
+
+export interface GeminiRisk {
+  id: string;
+  title: string;
+  level: "critical" | "high" | "medium" | "low";
+  description: string;
+  probability: number;
+  impact: string;
+  mitigation: string;
+}
+
+export interface GeminiInsight {
+  id: string;
+  title: string;
+  insight: string;
+  relevance: "high" | "medium" | "low";
+  actionable: boolean;
+}
+
+export interface GeminiAction {
+  id: string;
+  action: string;
+  priority: "immediate" | "short-term" | "long-term";
+  rationale: string;
+  resources: string;
+  estimatedImpact: string;
+}
+
+export interface GeminiDataPoint {
+  label: string;
+  value: string;
+  unit?: string;
+  trend?: "up" | "down" | "stable";
+}

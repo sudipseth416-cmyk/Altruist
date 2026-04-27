@@ -30,10 +30,9 @@ export default function RootLayout({
         {/* Leaflet CSS */}
         <link
           rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"
-          integrity="sha512-Zcn6bjR/8RZbLEpLIeOwNtzREBAJnUKESxces60Mpoj+2okopSAcSUIUOHIRDhXXN+4UD3DuCUnS0KLnQQ/76g=="
-          crossOrigin="anonymous"
-          referrerPolicy="no-referrer"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossOrigin=""
         />
         {/* Inter Font */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
