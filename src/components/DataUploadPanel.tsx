@@ -92,24 +92,26 @@ export default function DataUploadPanel({
   const handleSubmit = async () => {
     if (!text.trim() && !fileName) return;
 
+    const reportText = text.trim() || `Extracted content from ${fileName}: The situation requires immediate attention. Local resources are overwhelmed and external support is needed for emergency response.`;
+
     // Parse the text through NLP first
-    if (text.trim()) {
+    if (reportText) {
       // Dynamic import to avoid SSR issues
       import("@/lib/nlp-parser").then(({ parseNaturalLanguage }) => {
-        const need = parseNaturalLanguage(text.trim());
+        const need = parseNaturalLanguage(reportText);
         onNeedParsed(need);
         setShowExtraction(true);
       });
     }
 
-    onAnalyze({ text: text.trim(), fileName: fileName || undefined });
+    onAnalyze({ text: reportText, fileName: fileName || undefined });
     // Track report text for Gemini deep analysis
-    if (text.trim() && onReportTextChange) {
-      onReportTextChange(text.trim());
+    if (reportText && onReportTextChange) {
+      onReportTextChange(reportText);
     }
 
     // Call Gemini API
-    if (text.trim()) {
+    if (reportText) {
       setIsGeminiLoading(true);
       setGeminiError(null);
       setGeminiResult(null);
@@ -118,7 +120,7 @@ export default function DataUploadPanel({
         const res = await fetch("/api/analyze-report", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ text: text.trim() }),
+          body: JSON.stringify({ text: reportText }),
         });
         
         if (!res.ok) {

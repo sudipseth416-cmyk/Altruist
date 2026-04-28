@@ -3632,5 +3632,82 @@
     "feedback": [],
     "updatedAt": "2026-04-27T17:30:10.944Z",
     "createdAt": "2026-04-27T17:30:10.944Z"
+  },
+  {
+    "caseId": "case-1777382738697",
+    "originalReport": "In Ward 12 of a semi-urban residential locality, a significant public health concern has emerged due to the irregularity of municipal waste collection services over the past eight days. The accumulation of uncollected garbage near residential areas and local marketplaces has led to deteriorating environmental conditions, including the spread of foul odor and the rapid increase of mosquito breeding grounds. Residents, particularly children and elderly individuals, have reported symptoms such as mild respiratory irritation and general discomfort, indicating a growing health risk. The situation has also affected the overall sanitation and livability of the area, raising concerns among community members about potential outbreaks of vector-borne diseases. Immediate intervention by local authorities, along with the implementation of a consistent waste management system, is essential to mitigate further health hazards and restore hygienic conditions in the locality.",
+    "analysis": {
+      "id": "case-1777382738697",
+      "timestamp": "2026-04-28T13:25:38.697Z",
+      "processingTime": 1200,
+      "model": "Demo Mode (Mock Analysis)",
+      "case_type": "new",
+      "category": "other",
+      "summary": "Mock analysis completed.",
+      "issues": [
+        "Issue 1 extracted"
+      ],
+      "cause_analysis": {
+        "identified_cause": "uncertain",
+        "confidence": "low"
+      },
+      "risk_analysis": {
+        "severity": "Medium",
+        "urgency": "Medium",
+        "risk_score": 50
+      },
+      "history_evaluation": {
+        "previous_actions": [],
+        "improvements": [],
+        "failures": [],
+        "current_condition": "not available"
+      },
+      "recommended_actions": [
+        {
+          "step": 1,
+          "action": "Field verification required"
+        }
+      ],
+      "resources_required": {
+        "skills": [
+          "Generalist"
+        ],
+        "materials": [
+          "Supplies"
+        ]
+      },
+      "volunteer_suggestion": {
+        "type": "Generalist",
+        "experience_level": "intermediate"
+      },
+      "outcome_prediction": {
+        "expected_if_followed": "Stable",
+        "risk_if_ignored": "Deterioration"
+      },
+      "case_status": "new",
+      "follow_up_actions": [
+        "Visit site"
+      ],
+      "evidence_map": [
+        {
+          "statement": "Issue found",
+          "source": "Input text"
+        }
+      ]
+    },
+    "status": "new",
+    "category": "other",
+    "summary": "Mock analysis completed.",
+    "timeline": [
+      {
+        "date": "2026-04-28T13:25:38.697Z",
+        "event": "Initial report analyzed",
+        "type": "report"
+      }
+    ],
+    "actionsTaken": [],
+    "feedback": [],
+    "updatedAt": "2026-04-28T13:25:40.740Z",
+    "createdAt": "2026-04-28T13:25:40.740Z"
   }
 ]
