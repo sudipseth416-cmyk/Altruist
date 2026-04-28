@@ -26,11 +26,6 @@ import {
 } from "lucide-react";
 import type { UploadStatus, CrisisNeed } from "@/lib/types";
 
-interface GeminiResult {
-  summary: string;
-  riskLevel: "Low" | "Medium" | "High" | "Critical";
-  recommendations: string[];
-}
 
 interface DataUploadPanelProps {
   onAnalyze: (data: { text: string; fileName?: string }) => void;
@@ -62,10 +57,6 @@ export default function DataUploadPanel({
   const [showExtraction, setShowExtraction] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  // Gemini State
-  const [geminiResult, setGeminiResult] = useState<GeminiResult | null>(null);
-  const [isGeminiLoading, setIsGeminiLoading] = useState(false);
-  const [geminiError, setGeminiError] = useState<string | null>(null);
 
   const handleDrag = useCallback((e: React.DragEvent) => {
     e.preventDefault();
@@ -109,34 +100,6 @@ export default function DataUploadPanel({
     if (reportText && onReportTextChange) {
       onReportTextChange(reportText);
     }
-
-    // Call Gemini API
-    if (reportText) {
-      setIsGeminiLoading(true);
-      setGeminiError(null);
-      setGeminiResult(null);
-      
-      try {
-        const res = await fetch("/api/analyze-report", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ text: reportText }),
-        });
-        
-        if (!res.ok) {
-          const errData = await res.json();
-          throw new Error(errData.error || "Failed to analyze report");
-        }
-        
-        const data: GeminiResult = await res.json();
-        setGeminiResult(data);
-      } catch (err: any) {
-        console.error("Gemini API Error:", err);
-        setGeminiError(err.message || "An error occurred during AI analysis");
-      } finally {
-        setIsGeminiLoading(false);
-      }
-    }
   };
 
   const clearFile = () => {
@@ -148,8 +111,6 @@ export default function DataUploadPanel({
     setText("");
     setFileName(null);
     setShowExtraction(false);
-    setGeminiResult(null);
-    setGeminiError(null);
     if (fileInputRef.current) fileInputRef.current.value = "";
   };
 
@@ -258,62 +219,6 @@ export default function DataUploadPanel({
         </div>
       )}
 
-      {/* Gemini AI Results */}
-      {isGeminiLoading && (
-        <div className="mb-6 p-6 rounded-2xl bg-black/40 border border-white/5 flex flex-col items-center justify-center animate-pulse min-h-[150px]">
-          <BrainCircuit className="w-8 h-8 text-purple-400 animate-spin mb-3" />
-          <p className="text-sm font-bold text-white/70 tracking-wide">Gemini AI Analyzing Report...</p>
-          <div className="w-32 h-1 bg-white/10 rounded-full mt-4 overflow-hidden">
-            <div className="w-1/2 h-full bg-gradient-to-r from-cyan-400 to-purple-400 animate-bounce" />
-          </div>
-        </div>
-      )}
-
-      {geminiError && (
-        <div className="mb-6 p-4 rounded-xl bg-rose-500/10 border border-rose-500/30 flex items-start gap-3">
-          <AlertCircle className="w-5 h-5 text-rose-400 flex-shrink-0" />
-          <div>
-            <p className="text-sm font-bold text-rose-400">AI Analysis Error</p>
-            <p className="text-xs text-rose-400/80 mt-1">{geminiError}</p>
-          </div>
-        </div>
-      )}
-
-      {geminiResult && !isGeminiLoading && (
-        <div className="mb-6 p-6 rounded-3xl bg-gradient-to-br from-purple-500/10 to-blue-500/5 border border-purple-500/20 shadow-[0_0_20px_rgba(168,85,247,0.1)] relative overflow-hidden animate-fade-in">
-          <div className="absolute -top-10 -right-10 w-32 h-32 bg-purple-500/20 blur-[40px] rounded-full pointer-events-none" />
-          
-          <div className="flex items-center justify-between mb-5 relative z-10">
-            <div className="flex items-center gap-2">
-              <BrainCircuit className="w-5 h-5 text-purple-400" />
-              <h4 className="text-sm font-bold text-white tracking-wide">Gemini Intelligence</h4>
-            </div>
-            {geminiResult.riskLevel === "Critical" && <span className="px-3 py-1 rounded-full bg-rose-500/20 border border-rose-500/40 text-[10px] font-bold text-rose-400 uppercase tracking-widest flex items-center gap-1.5"><Activity className="w-3 h-3" /> Critical Risk</span>}
-            {geminiResult.riskLevel === "High" && <span className="px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/40 text-[10px] font-bold text-amber-400 uppercase tracking-widest flex items-center gap-1.5"><AlertCircle className="w-3 h-3" /> High Risk</span>}
-            {geminiResult.riskLevel === "Medium" && <span className="px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/40 text-[10px] font-bold text-cyan-400 uppercase tracking-widest">Medium Risk</span>}
-            {geminiResult.riskLevel === "Low" && <span className="px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-500/40 text-[10px] font-bold text-emerald-400 uppercase tracking-widest">Low Risk</span>}
-          </div>
-
-          <div className="space-y-5 relative z-10">
-            <div className="p-4 rounded-xl bg-black/40 border border-white/5">
-              <p className="text-xs font-bold text-white/50 uppercase tracking-widest mb-2 flex items-center gap-2"><FileText className="w-3.5 h-3.5 text-blue-400" /> Summary</p>
-              <p className="text-sm text-white/90 leading-relaxed font-medium">{geminiResult.summary}</p>
-            </div>
-
-            <div className="p-4 rounded-xl bg-black/40 border border-white/5">
-              <p className="text-xs font-bold text-white/50 uppercase tracking-widest mb-3 flex items-center gap-2"><ListChecks className="w-3.5 h-3.5 text-emerald-400" /> Recommended Actions</p>
-              <ul className="space-y-2">
-                {geminiResult.recommendations.map((rec, i) => (
-                  <li key={i} className="flex items-start gap-2.5">
-                    <div className="w-1.5 h-1.5 rounded-full bg-purple-400 mt-1.5 flex-shrink-0" />
-                    <span className="text-xs text-white/80 leading-relaxed">{rec}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* Drop Zone */}
       <div

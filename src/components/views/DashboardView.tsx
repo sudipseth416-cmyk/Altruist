@@ -183,12 +183,12 @@ export default function DashboardView(props: DashboardViewProps) {
 
       {/* Row 4: Impact Dashboard */}
       <div className="mb-5 opacity-0 animate-slide-up" style={{ animationDelay: "1100ms", animationFillMode: "forwards" }}>
-        <ImpactPanel result={props.caseResult} totalDecisions={props.totalDecisions} />
+        <ImpactPanel result={props.caseResult} totalDecisions={props.totalDecisions} isLoading={props.isCaseLoading} />
       </div>
 
       {/* Row 5: Human Decision */}
       <div className="mb-5 opacity-0 animate-slide-up" style={{ animationDelay: "1200ms", animationFillMode: "forwards" }}>
-        <HumanDecisionPanel result={props.caseResult} onDecision={props.onDecision} isSubmitting={props.isDecisionSubmitting} />
+        <HumanDecisionPanel result={props.caseResult} onDecision={props.onDecision} isSubmitting={props.isDecisionSubmitting} isLoading={props.isCaseLoading} />
       </div>
     </div>
   );

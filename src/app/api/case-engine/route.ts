@@ -16,26 +16,71 @@ const MAX_RETRIES = 3;
 
 const CASE_ENGINE_SYSTEM_PROMPT = `You are an AI-powered NGO Case Analysis and Management Engine.
 Analyze ONLY the given report and its provided history.
-Return STRICT JSON. No explanations.`;
+Return STRICT JSON matching this schema:
+{
+  "id": "case-unique-id",
+  "timestamp": "ISO-8601",
+  "case_type": "new" | "follow_up",
+  "category": "health" | "education" | "disaster" | "abuse" | "poverty" | "infrastructure" | "other",
+  "summary": "Detailed summary",
+  "issues": ["Issue 1", "Issue 2"],
+  "cause_analysis": { "identified_cause": "...", "confidence": "low" | "medium" | "high" },
+  "risk_analysis": { "severity": "Low" | "Medium" | "High" | "Critical", "urgency": "Low" | "Medium" | "High", "risk_score": 0-100 },
+  "history_evaluation": { "previous_actions": [], "improvements": [], "failures": [], "current_condition": "..." },
+  "recommended_actions": [{ "step": 1, "action": "..." }],
+  "resources_required": { "skills": [], "materials": [] },
+  "volunteer_suggestion": { "type": "...", "experience_level": "beginner" | "intermediate" | "expert" },
+  "outcome_prediction": { "expected_if_followed": "...", "risk_if_ignored": "..." },
+  "case_status": "new" | "in_progress" | "critical" | "improving" | "resolved" | "uncertain",
+  "follow_up_actions": [],
+  "evidence_map": [{ "statement": "...", "source": "..." }]
+}
+Return raw JSON. No explanations. No markdown blocks.`;
 
 function validateOutput(outputJson: Record<string, unknown>, input: string) {
-  return { isValid: true, violations: [] }; // Simplified for brevity, original logic was robust
+  // Original logic was robust, ensuring required fields exist
+  const required = ["id", "summary", "issues", "risk_analysis", "case_status"];
+  const missing = required.filter(f => !outputJson[f]);
+  return { isValid: missing.length === 0, violations: missing };
 }
 
 async function callGeminiOnce(reportText: string): Promise<Record<string, unknown>> {
   if (!GEMINI_API_KEY) throw new Error("Missing API Key");
+  
   const response = await fetch(`${GEMINI_API_URL}?key=${GEMINI_API_KEY}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      systemInstruction: { parts: [{ text: CASE_ENGINE_SYSTEM_PROMPT }] },
-      contents: [{ parts: [{ text: reportText }] }],
-      generationConfig: { temperature: 0.1, responseMimeType: "application/json" },
+      contents: [{ 
+        parts: [
+          { text: `System Instruction: ${CASE_ENGINE_SYSTEM_PROMPT}` },
+          { text: `Report to analyze: ${reportText}` }
+        ] 
+      }],
+      generationConfig: { 
+        temperature: 0.1, 
+        responseMimeType: "application/json" 
+      },
     }),
   });
+
+  if (!response.ok) {
+    const error = await response.json();
+    throw new Error(error?.error?.message || `Gemini API returned ${response.status}`);
+  }
+
   const data = await response.json();
   const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
-  return JSON.parse(text);
+  if (!text) throw new Error("Empty response from AI");
+  
+  try {
+    return JSON.parse(text);
+  } catch (e) {
+    // Attempt to extract JSON if markdown was returned
+    const match = text.match(/\{[\s\S]*\}/);
+    if (match) return JSON.parse(match[0]);
+    throw e;
+  }
 }
 
 function generateFallbackResult(text: string): CaseEngineResult {

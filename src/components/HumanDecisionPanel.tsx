@@ -16,6 +16,7 @@ import {
   AlertTriangle,
   History,
   Users,
+  BrainCircuit,
 } from "lucide-react";
 import type { CaseEngineResult } from "@/lib/case-engine-types";
 
@@ -23,6 +24,7 @@ interface HumanDecisionPanelProps {
   result: CaseEngineResult | null;
   onDecision: (decision: "approve" | "modify" | "reject", notes: string) => void;
   isSubmitting: boolean;
+  isLoading?: boolean;
 }
 
 /* ─── Decision Record (stored in state) ─── */
@@ -170,6 +172,7 @@ export default function HumanDecisionPanel({
   result,
   onDecision,
   isSubmitting,
+  isLoading,
 }: HumanDecisionPanelProps) {
   const [notes, setNotes] = useState("");
   const [selectedDecision, setSelectedDecision] = useState<
@@ -187,10 +190,28 @@ export default function HumanDecisionPanel({
     }
   }, [result]);
 
+  /* ── Loading State ── */
+  if (isLoading) {
+    return (
+      <div className="glass-card p-6 animate-fade-in flex flex-col items-center justify-center min-h-[280px]">
+        <div className="relative mb-6">
+          <div className="w-16 h-16 rounded-full border-2 border-amber-500/20 border-t-amber-500 animate-spin" />
+          <BrainCircuit className="w-6 h-6 text-amber-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+        </div>
+        <h3 className="text-sm font-semibold text-white mb-1 uppercase tracking-wider">
+          Evaluating Decision Matrix
+        </h3>
+        <p className="text-xs text-slate-500 text-center max-w-[220px]">
+          AI is generating human-centered recommendations...
+        </p>
+      </div>
+    );
+  }
+
   /* ── Empty State ── */
   if (!result) {
     return (
-      <div className="glass-card p-6 animate-fade-in animate-delay-400 flex flex-col items-center justify-center min-h-[280px]">
+      <div className="glass-card p-6 animate-fade-in flex flex-col items-center justify-center min-h-[280px]">
         <div className="w-14 h-14 rounded-2xl bg-white/[0.03] flex items-center justify-center mb-4">
           <Gauge className="w-7 h-7 text-slate-600" />
         </div>

@@ -14,6 +14,7 @@ import type { CaseEngineResult } from "@/lib/case-engine-types";
 interface ImpactPanelProps {
   result: CaseEngineResult | null;
   totalDecisions: number;
+  isLoading?: boolean;
 }
 
 /* ─── Animated Counter ─── */
@@ -38,7 +39,7 @@ function AnimatedNumber({ value, suffix = "" }: { value: number; suffix?: string
   return <>{display.toLocaleString()}{suffix}</>;
 }
 
-export default function ImpactPanel({ result, totalDecisions }: ImpactPanelProps) {
+export default function ImpactPanel({ result, totalDecisions, isLoading }: ImpactPanelProps) {
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -65,10 +66,22 @@ export default function ImpactPanel({ result, totalDecisions }: ImpactPanelProps
     { name: 'Low', value: result?.risk_analysis.severity === "Low" ? 1 : 0, color: '#38bdf8' },
   ];
 
+  if (isLoading) {
+    return (
+      <div className="liquid-glass rounded-3xl border border-white/5 shadow-[0_8px_32px_rgba(0,0,0,0.3)] p-8 animate-fade-in flex flex-col items-center justify-center min-h-[400px] font-['Poppins',sans-serif]">
+        <div className="w-20 h-20 rounded-full border-4 border-purple-500/20 border-t-purple-500 animate-spin mb-6" />
+        <h3 className="text-lg font-bold text-white tracking-[0.2em] animate-pulse uppercase">
+          Initializing Analytics...
+        </h3>
+        <p className="text-sm text-white/40 mt-2">AI Engine calculating impact matrices</p>
+      </div>
+    );
+  }
+
   if (!result) {
     return (
-      <div className="liquid-glass rounded-3xl border border-white/5 shadow-[0_8px_32px_rgba(0,0,0,0.3)] p-8 animate-fade-in animate-delay-500 flex flex-col items-center justify-center min-h-[400px] font-['Poppins',sans-serif]">
-        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-white/5 to-white/10 flex items-center justify-center mb-6 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)] animate-pulse">
+      <div className="liquid-glass rounded-3xl border border-white/5 shadow-[0_8px_32px_rgba(0,0,0,0.3)] p-8 animate-fade-in flex flex-col items-center justify-center min-h-[400px] font-['Poppins',sans-serif]">
+        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-white/5 to-white/10 flex items-center justify-center mb-6 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)]">
           <BarChart3 className="w-8 h-8 text-white/40" />
         </div>
         <h3 className="text-lg font-bold text-white/50 mb-2 uppercase tracking-[0.2em]">

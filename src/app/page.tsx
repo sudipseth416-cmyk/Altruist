@@ -194,6 +194,7 @@ export default function DashboardPage() {
       setErrorMessage(null);
       try {
         setUploadStatus("uploading");
+        setIsCaseLoading(true); // Ensure components know we are working
         await new Promise((r) => setTimeout(r, 400));
 
         setUploadStatus("analyzing");
@@ -232,6 +233,8 @@ export default function DashboardPage() {
         setUploadStatus("error");
         setErrorMessage(message);
         addToast("error", message);
+      } finally {
+        setIsCaseLoading(false);
       }
     },
     [addToast]
